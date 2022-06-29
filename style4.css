@@ -1,0 +1,312 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+}
+
+
+.main {
+    position: absolute;
+    display: inline-block;
+    left: 2.5vw;
+}
+
+.border {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    border-top: 1px solid black;
+    opacity: 50%;
+    top: 4.5vw;
+    left: 23vw;
+}
+
+.ttp1 {
+    position: relative;
+    display: inline-block;
+    left: 39vw;
+}
+
+#ttp {
+    display: inline-block;
+    font-size: 3vw;
+    font-weight: 700;
+}
+
+.border2 {
+    position: absolute;
+    display: inline-block;
+    width: 80%;
+    border-top: 1px solid black;
+    opacity: 50%;
+    top: 4.5vw;
+    left: 58vw;
+}
+
+
+
+
+.back {
+    position: absolute;
+    left: 44.5vw;
+    top: 10vw;
+    color: red;
+    font-size: 25px;
+}
+
+#back {
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 5px;
+    color: black;
+}
+
+
+
+
+
+
+
+
+.box {
+    border: 1.5px solid red;
+    height: 23vw;
+    width: 20vw;
+    border-radius: 8px;
+    position: relative;
+    top: 14vw;
+    box-shadow: 5px 5px 10px grey;
+    left: 38vw;
+    display: inline-block;
+    padding: 6px;
+
+}
+
+.card1 {
+    position: absolute;
+    opacity: 90%;
+    top: 10%;
+    font-weight: 500;
+    right: 0px;
+    width: 70%;
+    font-size: 16px;
+    color: red;
+    text-align: left;
+    height: 15%;
+    border-bottom: 1.5px black solid;
+}
+
+.card2 {
+    position: absolute;
+    top: 35%;
+    right: 0;
+    width: 70%;
+    height: 30%;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 700;
+    text-decoration: line-through red;
+    color: red;
+}
+
+.card3 {
+    position: absolute;
+    top: 53%;
+    font-size: 13px;
+    left: 20%;
+}
+
+#check {
+    position: relative;
+    top: 0.5px;
+    border-radius: 0;
+}
+
+.plus {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.back {
+    font-size: 27px;
+    color: red
+}
+
+.blur{
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.popup{
+    position: absolute;
+    border: 1px solid red;
+    box-shadow: 5px 5px 6px grey;
+    margin-left: 15px;
+    border-radius: 10px;
+    height: 35%;
+    top: 35%;
+    width: 35%;
+    left: 30vw;
+    background-color: white;
+}
+
+.poptext{
+    position: relative;
+    border: 1px solid red;
+    width: 70%;
+    height: 5vh;
+    border-radius: 5px;
+    box-shadow: 3px 3px 6px grey;
+}
+
+.popbutton{
+    position: relative;
+    background-color: rgb(240, 78, 78);
+    width: 7vw;
+    height: 6vh;
+    color: aliceblue;
+    font-size: 20px;
+    border-radius: 50px;
+    border: 0;
+    top: 2vw;
+    left: 14vw;
+}
+
+#pop{
+    position: relative;
+    color: rgb(228, 58, 58);
+    top: 2vh;
+    font-size: 27px;
+    opacity: .7;
+}
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    body {
+        overflow-x: scroll;
+    }
+
+    .main {
+        position: absolute;
+        width: 90%;
+        left: 8vw;
+        top: 5vw;
+    }
+
+    .ttp1 {
+        display: inline-block;
+        position: relative;
+        left: 16vw;
+        bottom: 2vw;
+    }
+
+    #ttp {
+        font-size: 10vw;
+    }
+
+    .box {
+        position: absolute;
+        left: 17.5vw;
+        width: 60vw;
+        height: 50vw;
+        top: 40vw;
+    }
+
+    .border,
+    .border2 {
+        display: none;
+    }
+
+    #back {
+        display: none;
+    }
+
+    .card1 {
+        width: 80%;
+        right: 0;
+        height: 20vw;
+    }
+
+    .card2 {
+        font-size: 20px;
+        right: 5vw;
+    }
+
+    .card3 {
+        font-size: 20px;
+        left: 10vw;
+    }
+
+
+    .ttp {
+        position: absolute;
+        top: 1px;
+        left: 3vw;
+        font-size: 30px;
+    }
+
+    .back {
+        position: absolute;
+        display: inline-block;
+        top: 12.5vw;
+        left: 7vw;
+        font-size: 10vw;
+    }
+
+    .popup{
+        width: 90%;
+        left: 2vw;
+    }
+
+    .popbutton{
+        width: 20vw;
+        left: 35vw;
+    }
+
+}
+
+
+@media screen and (min-width: 601px) and (max-width: 1024px) {
+
+    body {
+        overflow-x: scroll;
+    }
+
+    .back {
+        position: absolute;
+        display: inline-block;
+        top: 12vw;
+        left: 46vw;
+        font-size: 25px;
+    }
+
+    .box {
+        position: absolute;
+        left: 38vw;
+        width: 25vw;
+        height: 40vw;
+        top: 20vw;
+    }
+
+    .main {
+        left: 4vw;
+    }
+
+    .popup{
+        width: 50%;
+        left: 25vw;
+    }
+
+    .popbutton{
+        width: 10vw;
+        left: 20vw;
+    }
+
+}
